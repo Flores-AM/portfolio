@@ -68,7 +68,7 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
+    "build": "react-scripts build",
     "test": "node scripts/test.js",
     "sass": "sass src/components/scss:build/css",
     "webp": "webp src/imagenes",
