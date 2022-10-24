@@ -67,8 +67,8 @@
     "workbox-webpack-plugin": "^6.4.1"
   },
   "scripts": {
-    "start": "node scripts/start.js",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "sass": "sass src/components/scss:build/css",
     "webp": "webp src/imagenes",
