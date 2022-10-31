@@ -13,7 +13,6 @@ import Contacto from "./components/header/Contacto";
 
 function App() {
   return (
-    // <Router>
     <div className="App">
       <Nav className="nav" />
       <Header />
@@ -21,7 +20,6 @@ function App() {
       <Portafolio />
       <Contacto />
     </div>
-    // </Router>
   );
 }
 

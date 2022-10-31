@@ -36,7 +36,11 @@
       box-shadow: none;
     }
     @include m.desktopXL {
-      min-width: 110rem;
+      width: 80% !important;
+      // min-width: 110rem !important;
+    }
+    @include m.desktopXXL {
+      width: 70% !important;
     }
     position: relative;
     width: 90% !important;
