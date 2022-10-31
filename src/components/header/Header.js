@@ -1,7 +1,7 @@
 import React from "react";
-import fondo1 from "../img/fondo1.jpg";
-import fondo2 from "../img/fondo2.jpg";
-import fondo3 from "../img/fondo3.png";
+// import fondo1 from "../img/fondo1.jpg";
+// import fondo2 from "../img/fondo2.jpg";
+// import fondo3 from "../img/fondo3.png";
 import { Link } from "react-scroll";
 import { useState } from "react";
 
@@ -26,9 +26,9 @@ const Header = () => {
 
   const [clicked, setClicked] = useState(false);
 
-  const handleClick = () => {
-    setClicked(!clicked);
-  };
+  // const handleClick = () => {
+  //   setClicked(!clicked);
+  // };
 
   const cerrar = () => {
     setClicked();
