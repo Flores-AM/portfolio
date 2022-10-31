@@ -24,7 +24,7 @@ const Nav = () => {
           <Link
             onClick={cerrar}
             className="a"
-            to="Header"
+            to="header2"
             spy={true}
             smooth={true}
             offset={0}

@@ -12,13 +12,13 @@
   position: relative;
   width: 100% !important;
   min-height: 100vh;
-  background: linear-gradient(v.$gris, v.$blanco);
+  background: linear-gradient(v.$degradado, v.$blanco);
   padding: 5rem 0;
   &::before {
     @include m.desktop {
       width: 65%;
       height: 100%;
-      background: linear-gradient(v.$gris, v.$blanco);
+      background: linear-gradient(v.$degradado, v.$blanco);
       clip-path: none;
     }
     content: "";
