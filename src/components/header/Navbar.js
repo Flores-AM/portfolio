@@ -28,7 +28,7 @@ const Nav = () => {
             spy={true}
             smooth={true}
             offset={0}
-            duration={100}
+            duration={500}
           >
             Inicio
           </Link>
@@ -39,7 +39,7 @@ const Nav = () => {
             spy={true}
             smooth={true}
             offset={0}
-            duration={100}
+            duration={500}
           >
             Sobre Mi
           </Link>
@@ -50,7 +50,7 @@ const Nav = () => {
             spy={true}
             smooth={true}
             offset={0}
-            duration={100}
+            duration={500}
           >
             Portafolio
           </Link>
@@ -61,7 +61,7 @@ const Nav = () => {
             spy={true}
             smooth={true}
             offset={0}
-            duration={100}
+            duration={500}
           >
             Contacto
           </Link>

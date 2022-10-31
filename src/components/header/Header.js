@@ -26,9 +26,9 @@ const Header = () => {
 
   const [clicked, setClicked] = useState(false);
 
-  // const handleClick = () => {
-  //   setClicked(!clicked);
-  // };
+  const handleClick = () => {
+    setClicked(!clicked);
+  };
 
   const cerrar = () => {
     setClicked();
@@ -77,7 +77,7 @@ const Header = () => {
               spy={true}
               smooth={true}
               offset={0}
-              duration={100}
+              duration={500}
             >
               Sobre mi
             </Link>
